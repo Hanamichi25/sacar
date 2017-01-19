@@ -1,5 +1,7 @@
 var mongoose = require('mongoose');
 var Client = mongoose.model('Client');
+var bodyParser = require('body-parser');
+
 
 //GET - Return all registers
 exports.findAll = function(req, res) {
@@ -22,7 +24,7 @@ exports.findById = function(req, res) {
 //POST - Insert a new register
 exports.add = function(req, res) {
  console.log('POST');
- console.log(req.body);
+ console.log(req.body.name);
  var client = new Client({
  name: req.body.name,
  email: req.body.email,
