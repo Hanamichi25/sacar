@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sacar-bc524",
+  "private_key_id": "bbf8d59f15e955d20a4504fef2a1205f7637546a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCsJcdHCIxIV7uQ\nO5xlPtXzWZHgsl3gwgmlxEwO4H6RJMsTh8+LizjOLEJJRGxl6S2VzGPS+rE/H9JY\nlkznd+2WauXGClyJjFmSP8ddTkaDmgkMrw1wJ5demJR9B5Y3jBttdBcb5j+MeJCn\nENOZS4jxdwUFWAAs1kE8WjQKW9nX1VEBo/5THwpPDKs4r+6WY+PX033NV+r+yrVC\n4HFCU8RGGfEs79iQSKVzJLOXLa0LAgC3drDDJnB4k5QV+l7bqHDhwjrEJrGZd8kE\ntQAeZZIY8D4A4haXn6DGQhBEkEjrJGcJSS4keBxI1s72AyXDCPWEdPmnXyKWJgb2\nsWWpLmhPAgMBAAECggEAV2l/fQRMJ1fVN/HtAkQb48uxlUU9AinFOFUqwcsguZbT\nP4GQ06zIFXjH1+hUmpMCwLPeZH1Dj2gbKTx4pHhzPhPdxOfyAS4xNWAJXcmnaJ/I\nxJYG3tJbvH8Bt1Mo5d/Q9Y0jRtltn2iBGzQiHg8K5IGpHQOIYzwQOBMdpbzqKvuj\nJaI3TygvEE9inBtAAXSRLz0nh2Jk3Fgly2aDbvRuaHO+kC7sc18w8jBh2wtN2o98\n+PgnJQ+4B9wQ9kIbl/9Xw7cYaF4vWim+aFF9IqnPE4x3zo/chtFdHPc2cNauvhg4\nr4ZU4DYHJxj4GWUTsMIBzXm87+4BSUsiMfW+SmbMUQKBgQDZywdku4rJ1ntRzLU/\nScqrryqTYBmLx/3EyvZmTzBMcMEnsdc9On9Uy9zxThhBEFE7L6n69VhiYsln69XS\ndGYZhNoBSBba/Otwma9Uz7Nnp+sKV3c4XY3b5z27s9b1FI0PFFyQ9T1fzYvJChQU\npCozDEN4FQGfK3JsfIVj0bX2WwKBgQDKWNWE6zQTO9J8Dv13+5bYVtRIGuqMtBPF\n9i5VMGehhXq0T5b6jc7SFNSc+t68E9H2OODpFwiOzcTvY6VLuMO4WGCNzS9tT2l+\nJJaDSdedvuPZ1UTPrqlwscAJ2k3orAcBffCoRfZaOIy1zmpT1WQh8NW+XND85BsL\nWj9UWmyAHQKBgQDBVLj7cn+BLCPMOSurQpXmUVg5+tSygJWEW6bequz07iKIWhX3\nBDaDz3QRwIFHQHTbVTRO0fvjWk3vMipc53a6sHPVL2kae+mDyukZIEbhfO3oADyU\njHeg/WSPetUWOWf+OtTw2MHiiVPM4mVw7UmIhxpdPkhyQt8P7nl6Ym5kgQKBgQDH\nqsL/Bwx60jQQAMayx4sA7SVKBW1e7C76z8LGgx4vb0Q2erbzhE0KVk26nX5+PlyX\nx2Z/+x+RspBa3Iv2XVqcJHEaW9cp2Quy0q3G3W2rFftGL0FYYfSG5I8n6cepCV9c\nZIa9tVOzkUuf9xBKqy3EpB52WqZKdVgOar5FIXkhLQKBgCkbZpzXXHlXoIH50V/3\nb2Rv7j7y0WyyoJgq1gQCzv2GcjhDZKkvOspiXTm5OFusPW01FUxBbIPROPurm8ml\nrShIe9iZeMn+7X6l3EmnRD00dYzi8v4GjSXC9VL//+B/mElPpozVE6An4+MskAkZ\nARyf1r94lC1csOelokrdTAxq\n-----END PRIVATE KEY-----\n",
+  "client_email": "adminsacar@sacar-bc524.iam.gserviceaccount.com",
+  "client_id": "101642700963162494356",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/adminsacar%40sacar-bc524.iam.gserviceaccount.com"
+}

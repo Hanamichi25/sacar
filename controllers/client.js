@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Client = mongoose.model('Client');
 var bodyParser = require('body-parser');
-
+var mosca = require('./mosca.js');
 
 //GET - Return all registers
 exports.findAll = function(req, res) {
@@ -33,7 +33,13 @@ exports.add = function(req, res) {
  client.save(function(err, client) {
  if(err) return res.send(500, err.message);
  res.status(200).jsonp(client);
- });
+ });	 
+ mosca.setMessage(req.body.name);
+ mosca.sentMessage;
+};
+
+exports.addMessage = function() {
+ console.log('Enviare un mensaje');
 };
 
 //PUT - Update a register already exists
