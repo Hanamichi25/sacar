@@ -27,21 +27,66 @@ var packet2 = {
   qos: 1,
   retain: false,  
 };
+var packet3 = {
+  topic: 'presence',
+  payload: 'OnDoors',
+  qos: 1,
+  retain: false,  
+};
+var packet4 = {
+  topic: 'presence',
+  payload: 'OffDoors',
+  qos: 1,
+  retain: false,  
+};
+var packet5 = {
+  topic: 'presence',
+  payload: 'OnLigth',
+  qos: 1,
+  retain: false,  
+};
+var packet6 = {
+  topic: 'presence',
+  payload: 'OffLigth',
+  qos: 1,
+  retain: false,  
+};
+
 
 exports.setMessage = function(message){
 	mensaje = message;
 	console.log("Enviare" +message);
-	if(mensaje == 'OnAlarm'){
+	if(mensaje === 'OnAlarm'){
 		server.publish(packet, function() {
 			console.log('Message sent 1' );  // it passes by here
 			contMessage = 1;
 		})	
-	}else{
+	}else if(mensaje === 'OffAlarm'){
 		server.publish(packet2, function() {
 			console.log('Message sent 2' );  // it passes by here
 			contMessage = 1;
 		})	
-	}
+	}else if(mensaje === 'OnDoors'){
+      server.publish(packet3, function() {
+        console.log('Message sent 3' );  // it passes by here
+        contMessage = 1;
+      })
+  }else if(mensaje === 'OffDoors'){
+      server.publish(packet4, function() {
+        console.log('Message sent 4' );  // it passes by here
+        contMessage = 1;
+      })
+  }else if(mensaje === 'OnLigth'){
+      server.publish(packet5, function() {
+        console.log('Message sent 5' );  // it passes by here
+        contMessage = 1;
+      })
+  }else if(mensaje === 'OffLigth'){
+      server.publish(packet6, function() {
+        console.log('Message sent 6' );  // it passes by here
+        contMessage = 1;
+      })
+  }
 	contMessage = 0;
 }
 
